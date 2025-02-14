@@ -1,0 +1,257 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Logo Text Styling */
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* Adjust size */
+    font-weight: 500;  /* Medium weight */
+    color: white;      /* Adjust based on theme */
+}
+
+/* Navbar */
+.navbar-container {
+    position: fixed;
+    width: 99.9%;
+    z-index: 100;
+    padding-bottom: 10px;
+    transition: background-color 4s ease-in-out;
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    transition: background-color 4s ease-in-out;
+}
+
+/* Overlay for text visibility */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Hero Content */
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Background Color Animation */
+@keyframes colorChange {
+    0% { background-color: #3498db; }  /* Blue */
+    33% { background-color: #e74c3c; } /* Red */
+    66% { background-color: #2ecc71; } /* Green */
+    100% { background-color: #3498db; } /* Back to Blue */
+}
+
+.navbar-container, .hero {
+    animation: colorChange 12s infinite ease-in-out;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Login & Sign-up Text */
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white; /* Default color */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+    color: #f39c12; /* Golden color on hover */
+}
+
+
+/* div 2 
+
+
+
+*/
+
+
+/* Make the Image Touch Right Edge & Enlarge */
+/* Set Background to Orange */
+.div2 {
+    background-color: #F47A01;
+    padding: 5rem 0; /* Maintain spacing */
+    margin-bottom: -80px;
+    margin-top: -20px;
+}
+
+/* Ensure Text is Readable on Orange Background */
+.text-body-emphasis {
+    color: white !important;
+}
+.tilted-image {
+    width: 97.5%; /* Slightly exceed the container for a large effect */
+    max-height: 600px; /* Adjust height */
+    object-fit: cover; /* Ensures it fills space nicely */
+    margin-right: 0; /* Push to the right edge */
+    
+    /* transform: rotate(-3deg); Slight tilt effect */
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;500&display=swap');
+
+/* Apply Beautiful Fonts */
+.text-container h1 {
+    font-family: 'Playfair Display', serif; /* Elegant font for headings */
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #333; /* Dark color for contrast */
+}
+
+.text-container p {
+    font-family: 'Poppins', sans-serif; /* Modern, clean font */
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #555; /* Softer contrast */
+}
+
+/* Prevent Text From Touching Left Edge */
+.text-container {
+    padding-left: 3rem; /* Adds space on the left */
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+    .text-container {
+        padding-left: 1.5rem; /* Less padding on smaller screens */
+    }
+}
+/* Make Heading Bigger */
+.big-heading {
+    font-size: 3rem; /* Large size for emphasis */
+    font-weight: 700;
+    color: #222;
+}
+
+
+.full-width-image {
+    width: 100%; /* Makes the image cover full width */
+    height: auto; /* Keeps the original vertical height */
+    display: block; /* Removes extra space below the image */
+    object-fit: cover; /* Ensures proper fitting without stretching */
+}
+
+/* div 4 */
+
+.animated-section {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #8A979C; /* Updated background color */
+    position: relative;
+}
+
+/* Centered Text */
+.center-text {
+    text-align: center;
+    z-index: 2;
+}
+
+/* Common Image Styling */
+.animated-image {
+    position: absolute;
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0; /* Hidden before animation */
+}
+
+/* Image from Top-Left */
+.top-left {
+    top: -100px;
+    left: -100px;
+    animation: slideTopLeft 1.5s ease-out forwards;
+}
+
+/* Image from Bottom-Right */
+.bottom-right {
+    bottom: -100px;
+    right: -100px;
+    animation: slideBottomRight 1.5s ease-out forwards;
+}
+
+/* Top-Left Entry Animation */
+.animated-section {
+    width: 100%;
+    height: 60vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #8A979C; /* Background color */
+    position: relative;
+}
+
+/* Centered Text */
+.center-text {
+    text-align: center;
+    z-index: 2;
+    max-width: 50%;
+}
+
+/* Common Image Styling */
+.animated-image {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    opacity: 0; /* Initially hidden */
+    transition: all 1.5s ease-out;
+}
+
+/* Image from Top-Left (Initial Position) */
+.top-left {
+    top: -100px;
+    left: -200px;
+}
+
+/* Image from Bottom-Right (Initial Position) */
+.bottom-right {
+    bottom: -100px;
+    right: -200px;
+}
+
+/* Active class - When div is in viewport */
+.animated-section.visible .top-left {
+    top: 15%;
+    left: 5%;
+    opacity: 1;
+}
+
+.animated-section.visible .bottom-right {
+    bottom: 30%;
+    right: 10%;
+    opacity: 1;
+}
+

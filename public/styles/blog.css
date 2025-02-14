@@ -1,0 +1,105 @@
+
+body {
+    background-color: #f8f9fa;
+}
+.blog-form-container {
+    max-width: 800px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+/* seeing page
+*/
+
+
+
+
+        body {
+            background-color: #f8f9fa;
+        }
+        .blog-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+
+         /* General Styles */
+         body {
+            background-color: #f4f4f4;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .blog-container {
+            width: 100%;
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* Blog Post Styling */
+        .blog-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .p-3 {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .p-3:hover {
+            transform: translateY(-3px);
+        }
+
+        /* Buttons */
+        .btn-outline-primary,
+        .btn-outline-danger {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-outline-primary:hover {
+            background: #007bff;
+            color: white;
+        }
+
+        .btn-outline-danger:hover {
+            background: #dc3545;
+            color: white;
+        }
+
+        /* Return Button */
+        .btn-secondary {
+            margin-top: 20px;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
